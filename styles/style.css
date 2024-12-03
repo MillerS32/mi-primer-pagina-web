@@ -1,0 +1,155 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background: lightskyblue url(../assets/images/familia.jpeg);
+	/* background-color: lightskyblue;
+	background-image: url(../assets/images/familia.jpeg);
+	background-repeat: repeat;
+	background-position: -100px; */
+	background-size: cover;
+}
+
+main{
+	background: white;
+	width: 800px;
+	border-radius: 15px;
+	margin: 20px auto;
+	padding: 20px;
+	box-shadow: 5px 5px 10px #000;
+}
+
+h1{
+	color:black;
+	font-size: 50px;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Geneva, Tahoma, sans-serif, Courier, monospace;
+}
+
+img{
+	width: 200px;
+	/* height: 300px; */
+}
+
+p{
+	text-align: justify;
+}
+
+span{
+	color: #261C00;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration:overline;
+	text-transform: uppercase;
+}
+
+a{
+	text-decoration: none;
+	border: 1px solid #000;
+	border-radius: 5px;
+	padding: 5px;
+	margin: 10px;
+}
+
+a:hover{
+	background: #000;
+	color: #FFF;
+}
+
+section{
+	margin: 20px 0 0 0;
+}
+
+nav{
+	margin: 20px 0;
+}
+
+footer{
+	text-align: center;
+	background-color: #000;
+	color: #FFF;
+	padding: 20px;
+}
+
+div{
+	text-align: center;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: lightskyblue url(../assets/images/familia.jpeg) no-repeat center center;
+	background-size: cover;
+	font-family: 'Arial', sans-serif;
+}
+
+main {
+	background: white;
+	width: 90%;
+	max-width: 800px;
+	border-radius: 15px;
+	margin: 20px auto;
+	padding: 20px;
+	box-shadow: 5px 5px 10px #000;
+}
+
+h1 {
+	color: black;
+	font-size: 50px;
+	font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+}
+
+nav a {
+	text-decoration: none;
+	border: 1px solid #000;
+	border-radius: 5px;
+	padding: 5px;
+	margin: 10px;
+}
+
+nav a:hover {
+	background: #000;
+	color: #FFF;
+}
+
+section {
+	margin: 20px 0;
+}
+
+.image-gallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	gap: 20px;
+}
+
+figure {
+	width: 100%;
+	max-width: 200px;
+	text-align: center;
+}
+
+figure img {
+	width: 100%;
+	height: auto; /* Mantiene las proporciones originales de la imagen */
+	border-radius: 10px;
+}
+
+figcaption {
+	margin-top: 10px;
+	font-size: 14px;
+	color: #333;
+}
+
+footer {
+	text-align: center;
+	background-color: #000;
+	color: #FFF;
+	padding: 20px;
+}
